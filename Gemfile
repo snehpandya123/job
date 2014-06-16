@@ -8,6 +8,12 @@ gem 'pg'
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'rails_12factor', group: :production
+gem 'protected_attributes'
+gem 'jquery-turbolinks'
+gem 'jquery-ui-rails'
+
+gem "kaminari"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'

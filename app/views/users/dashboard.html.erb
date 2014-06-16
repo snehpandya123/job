@@ -10,7 +10,9 @@
           <img src="/assets/sld1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
+              <% if signed_in? %>
              <p> <h1>Welcome <%= current_user.email%> </h1></p>
+             <% end %>
               <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
               <% if signed_in? %>
               
